@@ -296,4 +296,17 @@ section{
     transition: .5s;
     left: 190px;
     margin-bottom: 30px;
+    
+}
+
+footer{
+    height: 100px;
+    padding-top: 150px;
+    color: #00B3AD;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+    color: #00B3AD;
 }
