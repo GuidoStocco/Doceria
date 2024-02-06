@@ -105,11 +105,25 @@ section{
 }
 
 .sessao-bemvindo-content{
-    padding-left: 50;
+    margin-left: 50px;
 }
 
 .welcome .banner{
     height: 500px;
     background-image: url('../img/banner2.jpg');
     background-position: center;
+    background-size: cover;
 }
+
+.sessao-bemvindo-content h1{
+    margin-top: 70px;
+    
+}
+
+.sessao-bemvindo-content::after, .sessao-about::after{
+    content: "";
+    display: block;
+    clear: both;
+    margin-bottom: 100px;
+}
+
