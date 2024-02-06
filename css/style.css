@@ -127,3 +127,43 @@ section{
     margin-bottom: 100px;
 }
 
+.sessao-minibanner{
+    width: 300px;
+    height: 400px;
+    background-image: url('../img/banner3.jpg');
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+
+.sessao-description{
+    position: absolute;
+    left: 370px;
+    padding-right: 30px;
+}
+
+.sessao-description p{
+    line-height: 2;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+
+.sessao-description a{
+    position: absolute;
+    left: 250px;
+    background-color: #127369;
+    padding: 10px ;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.sessao-description a:hover, form input [type=submit]{
+    color:#127369;
+    background-color: #fff;
+    border: 1px solid #127369;
+    transform: scale(1.2);
+}
+
