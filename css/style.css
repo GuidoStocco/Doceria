@@ -107,3 +107,9 @@ section{
 .sessao-bemvindo-content{
     padding-left: 50;
 }
+
+.welcome .banner{
+    height: 500px;
+    background-image: url('../img/banner2.jpg');
+    background-position: center;
+}
