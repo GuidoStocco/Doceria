@@ -167,3 +167,16 @@ section{
     transform: scale(1.2);
 }
 
+.sessao-about .sessao-minibanner{
+    float: right;
+    margin-right: 50px;
+    background-image: url('../img/banner4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.sessao-about .sessao-description{
+    left: 25px;
+    width: calc(100% - 400px);
+    position: absolute;
+}
