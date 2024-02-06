@@ -264,3 +264,36 @@ section{
     background-image: url('../img/galeria12.jpg');
     margin-right: 0;
 }
+
+#form-contato{
+    width: 500px;
+}
+
+#form-contato input[type=text], #form-contato input[type=email], #form-contato textarea{
+    display: block;
+    border: 2px solid #127369;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#form-contato textarea{
+    height: 150px;
+}
+
+#form-contato ::placeholder{
+    color: #00B3AD;
+}
+
+#form-contato input[type=submit]{
+    position: relative;
+    background-color: #127369;
+    padding: 10px 50px ;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    left: 190px;
+    margin-bottom: 30px;
+}
