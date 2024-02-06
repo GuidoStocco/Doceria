@@ -4,10 +4,42 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Open Sans', sans-serif;
+    color: #373a3c;
 }
 
-header{
-    background-color: #1C8394;
+a {
+    transition: .5s;
+}
+
+#header{
+    position: fixed;
     height: 100%;
-    
+    width: 300px;
+    background-color: #006663;
+    padding-top: 40px;
+}
+
+#header h1{
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#header a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: .2s;
+    cursor: pointer;
+}
+
+#header a:hover{
+    color:#FF6B1A;
+}
+
+.box{
+    text-align: center;
+    padding: 15px 0 15px 0;
 }
