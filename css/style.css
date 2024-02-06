@@ -74,3 +74,36 @@ ul{
     color: #fff;
     cursor: pointer;
 }
+
+/*CONTEUDO*/
+#principal-content{
+    position: absolute;
+    left: 300px;
+    width: calc(100% - 300px);
+}
+
+#principal-content h1,
+#principal-content h2{
+    color: #00B3AD;
+    margin-bottom: 30px;
+}
+
+#principal-content h1{
+    font-size: 48px;
+}
+
+#principal-content h2{
+    font: 35px;
+}
+
+section{
+    padding-left: 50px;
+}
+
+.welcome{
+    padding-left: 0;
+}
+
+.sessao-bemvindo-content{
+    padding-left: 50;
+}
